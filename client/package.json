@@ -31,8 +31,12 @@
     "@web3-react/walletconnect-connector": "^6.1.1",
     "@web3-react/walletlink-connector": "^6.0.9",
     "commitizen": "^4.2.2",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
     "husky": "^4.3.6",
     "jest-environment-jsdom-sixteen": "^1.0.3",
+    "prettier": "^2.2.1",
     "prop-types": "^15.7.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
@@ -42,10 +46,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css)\""
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": ["react-app", "plugin:prettier/recommended"]
   },
   "browserslist": {
     "production": [
@@ -58,5 +63,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
