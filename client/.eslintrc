@@ -11,8 +11,7 @@
     "plugin:react-hooks/recommended",
     "plugin:testing-library/recommended",
     "plugin:testing-library/react",
-    "plugin:jest-dom/recommended",
-
+    "plugin:jest-dom/recommended"
   ],
   "ignorePatterns": ["node_modules/**/*"],
   "parserOptions": {
