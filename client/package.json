@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "author": "Santiago Deleon",
   "license": "MIT",
@@ -48,7 +48,6 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-testing-library": "^3.10.1",
     "husky": "^4.3.6",
-    "jest": "^26.6.3",
     "jest-environment-jsdom-sixteen": "^1.0.3",
     "jest-junit": "^12.0.0",
     "moment": "^2.29.1",
@@ -63,7 +62,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest --watch",
+    "test": "react-script test",
     "test:ci": "test --ci --coverage --coverageDirectory=output/coverage/jest --reporters=default --reporters=jest-junit --testFailureExitCode=0 --silent"
   },
   "config": {
@@ -81,5 +80,17 @@
   "jest-junit": {
     "outputDirectory": "./output/coverage/juint",
     "suiteNameTemplate": "{filepath}"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
