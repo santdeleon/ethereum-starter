@@ -2,6 +2,13 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "author": "Santiago Deleon",
+  "license": "MIT",,
+  "engines": {
+    "node": ">=12.1.0",
+    "npm": ">=6.9.0",
+    "yarn": ">=1.19.0"
+  },
   "dependencies": {
     "node": "^10.22.0",
     "react": "16.11.0",
