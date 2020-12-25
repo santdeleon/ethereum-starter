@@ -13,17 +13,17 @@ const propTypes = {
 
 const LightTheme = {
   color: '#000',
-  backgroundColor: '#fff',
+  background: '#fff',
 };
 
 const DarkTheme = {
   color: '#fff',
-  backgroundColor: '#222',
+  background: '#222',
 };
 
 const GlobalStyles = createGlobalStyle`
   body {
-    backgroundColor: ${({ theme }) => theme.backgroundColor};
+    background: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.color};
   }
 `;
