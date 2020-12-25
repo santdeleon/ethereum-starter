@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the App component renders content a welcome message 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <h1>
+      Hello, Ethereum World!
+    </h1>
+  </div>
+</div>
+`;
