@@ -4,6 +4,7 @@
 
 [![License](https://img.shields.io/github/license/santdeleon/ethereum-starter)](https://github.com/santdeleon/ethereum-starter/blob/main/LICENSE)
 [![Version](https://img.shields.io/github/package-json/v/santdeleon/ethereum-starter)](https://github.com/santdeleon/ethereum-starter/blob/main/package.json)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ## Getting Started
 
