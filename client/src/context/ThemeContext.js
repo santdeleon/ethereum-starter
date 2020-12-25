@@ -1,11 +1,11 @@
-import React, { createContext, useContext } from 'react';
+import React, { createContext } from 'react';
 import {
   ThemeProvider as StyledComponentsThemeProvider,
   createGlobalStyle,
 } from 'styled-components';
 import { oneOfType, array, object } from 'prop-types';
 
-import { useLocalStorage } from './useLocalStorage';
+import { useLocalStorage } from '../hooks/useLocalStorage.js';
 
 const propTypes = {
   children: oneOfType([array, object]),
@@ -50,11 +50,5 @@ const ThemeProvider = ({ children }) => {
   );
 };
 
-const useTheme = () => {
-  const context = useContext(ThemeContext);
-  if (!context) throw new Error('You must useTheme within a <ThemeProvider />');
-  return context;
-};
-
 ThemeProvider.propTypes = propTypes;
-export { ThemeProvider, GlobalStyles, LightTheme, DarkTheme, useTheme };
+export { ThemeProvider, ThemeContext, GlobalStyles, LightTheme, DarkTheme };

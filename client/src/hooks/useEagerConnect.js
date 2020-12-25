@@ -5,7 +5,7 @@ import { injected } from '../connectors';
 
 export const useEagerConnect = () => {
   const [tried, setTried] = useState(false);
-  const { activate, active } = useWeb3ReactCore(); // specifically using useWeb3ReactCore because of what this hook does
+  const { activate, active } = useWeb3ReactCore();
 
   useEffect(() => {
     injected &&

@@ -7,7 +7,7 @@ import './index.css';
 
 import App from './App';
 
-import { ThemeProvider } from './context/useTheme';
+import { ThemeProvider } from './context/ThemeContext';
 
 import * as serviceWorker from './serviceWorker';
 
