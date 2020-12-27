@@ -49,7 +49,6 @@
     "eslint-plugin-testing-library": "^3.10.1",
     "husky": "^4.3.6",
     "identity-obj-proxy": "^3.0.0",
-    "jest-dom": "^4.0.0",
     "jest-environment-jsdom-sixteen": "^1.0.3",
     "jest-junit": "^12.0.0",
     "moment": "^2.29.1",
@@ -64,7 +63,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:ci": "test --ci --coverage --coverageDirectory=output/coverage/jest --reporters=default --reporters=jest-junit --testFailureExitCode=0 --silent"
+    "test:ci": "react-scripts test --ci --coverage --coverageDirectory=output/coverage/jest --reporters=default --reporters=jest-junit --testFailureExitCode=0 --silent"
   },
   "config": {
     "commitizen": {
