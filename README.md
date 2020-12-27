@@ -1,4 +1,4 @@
-# Ethereum Starter
+# @santdeleon/ethereum-starter
 
 > An Ethereum boilerplate repository for building decentralized applications
 

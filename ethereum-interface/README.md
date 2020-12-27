@@ -1,4 +1,4 @@
-# Interface
+# @santdeleon/ethereum-interface
 
 > Ethereum Starter Frontend
 
