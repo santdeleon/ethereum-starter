@@ -1,7 +1,7 @@
 {
-  "name": "ethereum-starter",
+  "name": "@santdeleon/ethereum-starter",
   "version": "1.1.0",
-  "description": "Ethereum Dapp Boilerplate",
+  "description": "Boilerplate to easily get started building Ethereum applications with Truffle",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -9,6 +9,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "santdeleon",
+    "ethereum",
+    "ethereum-starter",
+    "truffle"
+  ],
   "author": "Santiago Deleon",
   "license": "MIT",
   "homepage": "https://github.com/santdeleon/ethereum-starter#readme",

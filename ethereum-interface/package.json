@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "@santdeleon/ethereum-interface",
   "version": "1.1.0",
   "private": true,
   "author": "Santiago Deleon",
