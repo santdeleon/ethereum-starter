@@ -1,20 +1,13 @@
 {
   "env": {
     "browser": true,
-    "jest": true,
+    "node": true,
     "es6": true
   },
-  "extends": [
-    "react-app",
-    "plugin:prettier/recommended",
-    "plugin:react/recommended",
-    "plugin:testing-library/recommended",
-    "plugin:testing-library/react",
-    "plugin:jest-dom/recommended"
-  ],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "ignorePatterns": ["node_modules/**/*"],
   "parserOptions": {
-    "ecmaVersion": 2020,
+    "ecmaVersion": 6,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
