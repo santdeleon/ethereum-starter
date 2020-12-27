@@ -24,4 +24,4 @@ yarn
 
 ## Working in the frontend
 
-To get the started on the app frontend ensure you are inside the `/client` repo and follow the [README](https://github.com/santdeleon/ethereum-starter/tree/main/client)
+To get the started on the app frontend ensure you are inside the `/ethereum-interface` repo and follow the [README](https://github.com/santdeleon/ethereum-starter/tree/main/ethereum-interface)
